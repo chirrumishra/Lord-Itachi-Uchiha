@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ew9-cv-dMZ">
+    <device id="retina6_1" orientation="portrait" appearance="dark"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Lord_Itachi_Uchiha" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ud7-sD-hbP">
+                                <rect key="frame" x="0.0" y="130" width="414" height="683"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="H8a-gB-D2i">
+                                <rect key="frame" x="0.0" y="74" width="414" height="56"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="barTintColor" red="0.25866109317110986" green="0.25866109317110986" blue="0.25866109317110986" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="9eG-AX-hBO"/>
+                                </connections>
+                            </searchBar>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="800" verticalHuggingPriority="800" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="WuU-3V-59e">
+                                <rect key="frame" x="188.5" y="429.5" width="37" height="37"/>
+                                <color key="color" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="H8a-gB-D2i" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="3kc-yE-apJ"/>
+                            <constraint firstItem="Ud7-sD-hbP" firstAttribute="top" secondItem="H8a-gB-D2i" secondAttribute="bottom" id="93b-Tf-r3U"/>
+                            <constraint firstItem="H8a-gB-D2i" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Dnp-au-AUf"/>
+                            <constraint firstItem="Ud7-sD-hbP" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="DsD-GA-Z0u"/>
+                            <constraint firstItem="H8a-gB-D2i" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="NZt-RX-AAJ"/>
+                            <constraint firstItem="Ud7-sD-hbP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="VMO-P3-KOX"/>
+                            <constraint firstItem="Ud7-sD-hbP" firstAttribute="top" secondItem="H8a-gB-D2i" secondAttribute="bottom" id="XRg-19-X5F"/>
+                            <constraint firstItem="WuU-3V-59e" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="iD8-mE-83F"/>
+                            <constraint firstItem="Ud7-sD-hbP" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="q5n-cS-0em"/>
+                            <constraint firstItem="WuU-3V-59e" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vbh-3a-rkh"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems>
+                        <barButtonItem systemItem="rewind" id="dGq-8K-DCX">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="backButton:" destination="BYZ-38-t0r" id="iHc-qR-WwS"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem systemItem="fastForward" id="VZA-23-5Ym">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="forwardButton:" destination="BYZ-38-t0r" id="eqQ-Ki-3y5"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="ZPZ-G2-TdH"/>
+                        <barButtonItem systemItem="refresh" id="zfN-aO-XsG">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="refreshButton:" destination="BYZ-38-t0r" id="2O3-bZ-rJh"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem systemItem="stop" id="R18-sM-OV3">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="stopButton:" destination="BYZ-38-t0r" id="DSA-33-38b"/>
+                            </connections>
+                        </barButtonItem>
+                    </toolbarItems>
+                    <navigationItem key="navigationItem" id="yzO-SY-yZx"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="ActInd" destination="WuU-3V-59e" id="a3Q-ea-WQw"/>
+                        <outlet property="webView" destination="Ud7-sD-hbP" id="jmb-Ug-fux"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="697.10144927536237" y="69.642857142857139"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="d0A-fB-c6W">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" toolbarHidden="NO" id="ew9-cv-dMZ" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics" translucent="NO"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="z0D-re-jR1">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="m1c-HA-iqa">
+                        <rect key="frame" x="0.0" y="813" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="gpE-Cm-mY7"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4to-5P-6Ao" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-213.04347826086959" y="69.642857142857139"/>
+        </scene>
+    </scenes>
+</document>

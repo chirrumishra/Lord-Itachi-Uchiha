@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB16641026A7EC0400B979DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB16640F26A7EC0400B979DD /* AppDelegate.swift */; };
+		CB16641226A7EC0400B979DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB16641126A7EC0400B979DD /* SceneDelegate.swift */; };
+		CB16641426A7EC0400B979DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB16641326A7EC0400B979DD /* ViewController.swift */; };
+		CB16641726A7EC0400B979DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB16641526A7EC0400B979DD /* Main.storyboard */; };
+		CB16641926A7EC2200B979DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB16641826A7EC2200B979DD /* Assets.xcassets */; };
+		CB16641C26A7EC2200B979DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB16641A26A7EC2200B979DD /* LaunchScreen.storyboard */; };
+		CB16642726A7EC2300B979DD /* Lord_Itachi_UchihaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB16642626A7EC2300B979DD /* Lord_Itachi_UchihaTests.swift */; };
+		CB16643226A7EC2300B979DD /* Lord_Itachi_UchihaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB16643126A7EC2300B979DD /* Lord_Itachi_UchihaUITests.swift */; };
+		CBC4186126AB86AB009E7959 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBC4186026AB86AB009E7959 /* WebKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB16642326A7EC2300B979DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB16640426A7EC0300B979DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB16640B26A7EC0300B979DD;
+			remoteInfo = "Lord Itachi Uchiha";
+		};
+		CB16642E26A7EC2300B979DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB16640426A7EC0300B979DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB16640B26A7EC0300B979DD;
+			remoteInfo = "Lord Itachi Uchiha";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB16640C26A7EC0400B979DD /* Lord Itachi Uchiha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lord Itachi Uchiha.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB16640F26A7EC0400B979DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CB16641126A7EC0400B979DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CB16641326A7EC0400B979DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CB16641626A7EC0400B979DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB16641826A7EC2200B979DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB16641B26A7EC2200B979DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB16641D26A7EC2200B979DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB16642226A7EC2300B979DD /* Lord Itachi UchihaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lord Itachi UchihaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB16642626A7EC2300B979DD /* Lord_Itachi_UchihaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lord_Itachi_UchihaTests.swift; sourceTree = "<group>"; };
+		CB16642826A7EC2300B979DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB16642D26A7EC2300B979DD /* Lord Itachi UchihaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lord Itachi UchihaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB16643126A7EC2300B979DD /* Lord_Itachi_UchihaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lord_Itachi_UchihaUITests.swift; sourceTree = "<group>"; };
+		CB16643326A7EC2300B979DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB50BBC826AAA5160064781E /* scripts.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = scripts.js; sourceTree = "<group>"; };
+		CB50BBC926AAA52E0064781E /* style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
+		CB50BBCD26AAEB480064781E /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		CBC4186026AB86AB009E7959 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB16640926A7EC0300B979DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBC4186126AB86AB009E7959 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB16641F26A7EC2300B979DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB16642A26A7EC2300B979DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB16640326A7EC0300B979DD = {
+			isa = PBXGroup;
+			children = (
+				CB16640E26A7EC0400B979DD /* Lord Itachi Uchiha */,
+				CB16642526A7EC2300B979DD /* Lord Itachi UchihaTests */,
+				CB16643026A7EC2300B979DD /* Lord Itachi UchihaUITests */,
+				CB16640D26A7EC0400B979DD /* Products */,
+				CBC4185F26AB86AA009E7959 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CB16640D26A7EC0400B979DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB16640C26A7EC0400B979DD /* Lord Itachi Uchiha.app */,
+				CB16642226A7EC2300B979DD /* Lord Itachi UchihaTests.xctest */,
+				CB16642D26A7EC2300B979DD /* Lord Itachi UchihaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB16640E26A7EC0400B979DD /* Lord Itachi Uchiha */ = {
+			isa = PBXGroup;
+			children = (
+				CB50BBC726AAA49F0064781E /* Resources */,
+				CB16640F26A7EC0400B979DD /* AppDelegate.swift */,
+				CB16641126A7EC0400B979DD /* SceneDelegate.swift */,
+				CB16641326A7EC0400B979DD /* ViewController.swift */,
+				CB16641526A7EC0400B979DD /* Main.storyboard */,
+				CB16641826A7EC2200B979DD /* Assets.xcassets */,
+				CB16641A26A7EC2200B979DD /* LaunchScreen.storyboard */,
+				CB16641D26A7EC2200B979DD /* Info.plist */,
+			);
+			path = "Lord Itachi Uchiha";
+			sourceTree = "<group>";
+		};
+		CB16642526A7EC2300B979DD /* Lord Itachi UchihaTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB16642626A7EC2300B979DD /* Lord_Itachi_UchihaTests.swift */,
+				CB16642826A7EC2300B979DD /* Info.plist */,
+			);
+			path = "Lord Itachi UchihaTests";
+			sourceTree = "<group>";
+		};
+		CB16643026A7EC2300B979DD /* Lord Itachi UchihaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CB16643126A7EC2300B979DD /* Lord_Itachi_UchihaUITests.swift */,
+				CB16643326A7EC2300B979DD /* Info.plist */,
+			);
+			path = "Lord Itachi UchihaUITests";
+			sourceTree = "<group>";
+		};
+		CB50BBC726AAA49F0064781E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CB50BBC826AAA5160064781E /* scripts.js */,
+				CB50BBC926AAA52E0064781E /* style.css */,
+				CB50BBCD26AAEB480064781E /* index.html */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CBC4185F26AB86AA009E7959 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBC4186026AB86AB009E7959 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB16640B26A7EC0300B979DD /* Lord Itachi Uchiha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB16643626A7EC2300B979DD /* Build configuration list for PBXNativeTarget "Lord Itachi Uchiha" */;
+			buildPhases = (
+				CB16640826A7EC0300B979DD /* Sources */,
+				CB16640926A7EC0300B979DD /* Frameworks */,
+				CB16640A26A7EC0300B979DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lord Itachi Uchiha";
+			productName = "Lord Itachi Uchiha";
+			productReference = CB16640C26A7EC0400B979DD /* Lord Itachi Uchiha.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB16642126A7EC2300B979DD /* Lord Itachi UchihaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB16643926A7EC2300B979DD /* Build configuration list for PBXNativeTarget "Lord Itachi UchihaTests" */;
+			buildPhases = (
+				CB16641E26A7EC2300B979DD /* Sources */,
+				CB16641F26A7EC2300B979DD /* Frameworks */,
+				CB16642026A7EC2300B979DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB16642426A7EC2300B979DD /* PBXTargetDependency */,
+			);
+			name = "Lord Itachi UchihaTests";
+			productName = "Lord Itachi UchihaTests";
+			productReference = CB16642226A7EC2300B979DD /* Lord Itachi UchihaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CB16642C26A7EC2300B979DD /* Lord Itachi UchihaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB16643C26A7EC2300B979DD /* Build configuration list for PBXNativeTarget "Lord Itachi UchihaUITests" */;
+			buildPhases = (
+				CB16642926A7EC2300B979DD /* Sources */,
+				CB16642A26A7EC2300B979DD /* Frameworks */,
+				CB16642B26A7EC2300B979DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB16642F26A7EC2300B979DD /* PBXTargetDependency */,
+			);
+			name = "Lord Itachi UchihaUITests";
+			productName = "Lord Itachi UchihaUITests";
+			productReference = CB16642D26A7EC2300B979DD /* Lord Itachi UchihaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB16640426A7EC0300B979DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					CB16640B26A7EC0300B979DD = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					CB16642126A7EC2300B979DD = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = CB16640B26A7EC0300B979DD;
+					};
+					CB16642C26A7EC2300B979DD = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = CB16640B26A7EC0300B979DD;
+					};
+				};
+			};
+			buildConfigurationList = CB16640726A7EC0300B979DD /* Build configuration list for PBXProject "Lord Itachi Uchiha" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB16640326A7EC0300B979DD;
+			productRefGroup = CB16640D26A7EC0400B979DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB16640B26A7EC0300B979DD /* Lord Itachi Uchiha */,
+				CB16642126A7EC2300B979DD /* Lord Itachi UchihaTests */,
+				CB16642C26A7EC2300B979DD /* Lord Itachi UchihaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB16640A26A7EC0300B979DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB16641C26A7EC2200B979DD /* LaunchScreen.storyboard in Resources */,
+				CB16641926A7EC2200B979DD /* Assets.xcassets in Resources */,
+				CB16641726A7EC0400B979DD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB16642026A7EC2300B979DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB16642B26A7EC2300B979DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB16640826A7EC0300B979DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB16641426A7EC0400B979DD /* ViewController.swift in Sources */,
+				CB16641026A7EC0400B979DD /* AppDelegate.swift in Sources */,
+				CB16641226A7EC0400B979DD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB16641E26A7EC2300B979DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB16642726A7EC2300B979DD /* Lord_Itachi_UchihaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB16642926A7EC2300B979DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB16643226A7EC2300B979DD /* Lord_Itachi_UchihaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB16642426A7EC2300B979DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB16640B26A7EC0300B979DD /* Lord Itachi Uchiha */;
+			targetProxy = CB16642326A7EC2300B979DD /* PBXContainerItemProxy */;
+		};
+		CB16642F26A7EC2300B979DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB16640B26A7EC0300B979DD /* Lord Itachi Uchiha */;
+			targetProxy = CB16642E26A7EC2300B979DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB16641526A7EC0400B979DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB16641626A7EC0400B979DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB16641A26A7EC2200B979DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB16641B26A7EC2200B979DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB16643426A7EC2300B979DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB16643526A7EC2300B979DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB16643726A7EC2300B979DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3WZV7C5695;
+				INFOPLIST_FILE = "Lord Itachi Uchiha/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "chirrumishra.Lord-Itachi-Uchiha";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB16643826A7EC2300B979DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3WZV7C5695;
+				INFOPLIST_FILE = "Lord Itachi Uchiha/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "chirrumishra.Lord-Itachi-Uchiha";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CB16643A26A7EC2300B979DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3WZV7C5695;
+				INFOPLIST_FILE = "Lord Itachi UchihaTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "chirrumishra.Lord-Itachi-UchihaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lord Itachi Uchiha.app/Lord Itachi Uchiha";
+			};
+			name = Debug;
+		};
+		CB16643B26A7EC2300B979DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3WZV7C5695;
+				INFOPLIST_FILE = "Lord Itachi UchihaTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "chirrumishra.Lord-Itachi-UchihaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lord Itachi Uchiha.app/Lord Itachi Uchiha";
+			};
+			name = Release;
+		};
+		CB16643D26A7EC2300B979DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3WZV7C5695;
+				INFOPLIST_FILE = "Lord Itachi UchihaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "chirrumishra.Lord-Itachi-UchihaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lord Itachi Uchiha";
+			};
+			name = Debug;
+		};
+		CB16643E26A7EC2300B979DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3WZV7C5695;
+				INFOPLIST_FILE = "Lord Itachi UchihaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "chirrumishra.Lord-Itachi-UchihaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lord Itachi Uchiha";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB16640726A7EC0300B979DD /* Build configuration list for PBXProject "Lord Itachi Uchiha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB16643426A7EC2300B979DD /* Debug */,
+				CB16643526A7EC2300B979DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB16643626A7EC2300B979DD /* Build configuration list for PBXNativeTarget "Lord Itachi Uchiha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB16643726A7EC2300B979DD /* Debug */,
+				CB16643826A7EC2300B979DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB16643926A7EC2300B979DD /* Build configuration list for PBXNativeTarget "Lord Itachi UchihaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB16643A26A7EC2300B979DD /* Debug */,
+				CB16643B26A7EC2300B979DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB16643C26A7EC2300B979DD /* Build configuration list for PBXNativeTarget "Lord Itachi UchihaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB16643D26A7EC2300B979DD /* Debug */,
+				CB16643E26A7EC2300B979DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB16640426A7EC0300B979DD /* Project object */;
+}
