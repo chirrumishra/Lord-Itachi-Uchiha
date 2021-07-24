@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E505B81653A4305C77A9F8B /* Pods_Lord_Itachi_Uchiha.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5017EF7942E3A145C2DBC347 /* Pods_Lord_Itachi_Uchiha.framework */; };
+		84258D8BDE772CF4FF9D3006 /* Pods_Lord_Itachi_Uchiha_Lord_Itachi_UchihaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AE5CE3C9F5F51D9C1DA001C /* Pods_Lord_Itachi_Uchiha_Lord_Itachi_UchihaUITests.framework */; };
+		898B329E64B451A473BCC98F /* Pods_Lord_Itachi_UchihaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4246FBFC9D98AFBFD63EC00 /* Pods_Lord_Itachi_UchihaTests.framework */; };
 		CB16641026A7EC0400B979DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB16640F26A7EC0400B979DD /* AppDelegate.swift */; };
 		CB16641226A7EC0400B979DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB16641126A7EC0400B979DD /* SceneDelegate.swift */; };
 		CB16641426A7EC0400B979DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB16641326A7EC0400B979DD /* ViewController.swift */; };
@@ -15,6 +18,7 @@
 		CB16641C26A7EC2200B979DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB16641A26A7EC2200B979DD /* LaunchScreen.storyboard */; };
 		CB16642726A7EC2300B979DD /* Lord_Itachi_UchihaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB16642626A7EC2300B979DD /* Lord_Itachi_UchihaTests.swift */; };
 		CB16643226A7EC2300B979DD /* Lord_Itachi_UchihaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB16643126A7EC2300B979DD /* Lord_Itachi_UchihaUITests.swift */; };
+		CB28925226ABAA6400A813CA /* AnimateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB28925126ABAA6400A813CA /* AnimateViewController.swift */; };
 		CBC4186126AB86AB009E7959 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBC4186026AB86AB009E7959 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +40,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4AE5CE3C9F5F51D9C1DA001C /* Pods_Lord_Itachi_Uchiha_Lord_Itachi_UchihaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lord_Itachi_Uchiha_Lord_Itachi_UchihaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C8DD7C5CD1A1A3C60667206 /* Pods-Lord Itachi UchihaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lord Itachi UchihaTests.release.xcconfig"; path = "Target Support Files/Pods-Lord Itachi UchihaTests/Pods-Lord Itachi UchihaTests.release.xcconfig"; sourceTree = "<group>"; };
+		5017EF7942E3A145C2DBC347 /* Pods_Lord_Itachi_Uchiha.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lord_Itachi_Uchiha.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D668023D4FDF2222CA6E46B /* Pods-Lord Itachi Uchiha-Lord Itachi UchihaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lord Itachi Uchiha-Lord Itachi UchihaUITests.release.xcconfig"; path = "Target Support Files/Pods-Lord Itachi Uchiha-Lord Itachi UchihaUITests/Pods-Lord Itachi Uchiha-Lord Itachi UchihaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A3C3AB04AC4DC2872FAF4340 /* Pods-Lord Itachi UchihaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lord Itachi UchihaTests.debug.xcconfig"; path = "Target Support Files/Pods-Lord Itachi UchihaTests/Pods-Lord Itachi UchihaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A4246FBFC9D98AFBFD63EC00 /* Pods_Lord_Itachi_UchihaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lord_Itachi_UchihaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3F3FDC2CB920D1C9356850D /* Pods-Lord Itachi Uchiha.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lord Itachi Uchiha.release.xcconfig"; path = "Target Support Files/Pods-Lord Itachi Uchiha/Pods-Lord Itachi Uchiha.release.xcconfig"; sourceTree = "<group>"; };
 		CB16640C26A7EC0400B979DD /* Lord Itachi Uchiha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lord Itachi Uchiha.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB16640F26A7EC0400B979DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB16641126A7EC0400B979DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,10 +61,10 @@
 		CB16642D26A7EC2300B979DD /* Lord Itachi UchihaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lord Itachi UchihaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB16643126A7EC2300B979DD /* Lord_Itachi_UchihaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lord_Itachi_UchihaUITests.swift; sourceTree = "<group>"; };
 		CB16643326A7EC2300B979DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CB50BBC826AAA5160064781E /* scripts.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = scripts.js; sourceTree = "<group>"; };
-		CB50BBC926AAA52E0064781E /* style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
-		CB50BBCD26AAEB480064781E /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		CB28925126ABAA6400A813CA /* AnimateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateViewController.swift; sourceTree = "<group>"; };
 		CBC4186026AB86AB009E7959 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		E8598E77F119ED101C55F853 /* Pods-Lord Itachi Uchiha.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lord Itachi Uchiha.debug.xcconfig"; path = "Target Support Files/Pods-Lord Itachi Uchiha/Pods-Lord Itachi Uchiha.debug.xcconfig"; sourceTree = "<group>"; };
+		F680D1910DBFBD70F8C7C6C3 /* Pods-Lord Itachi Uchiha-Lord Itachi UchihaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lord Itachi Uchiha-Lord Itachi UchihaUITests.debug.xcconfig"; path = "Target Support Files/Pods-Lord Itachi Uchiha-Lord Itachi UchihaUITests/Pods-Lord Itachi Uchiha-Lord Itachi UchihaUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +73,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBC4186126AB86AB009E7959 /* WebKit.framework in Frameworks */,
+				0E505B81653A4305C77A9F8B /* Pods_Lord_Itachi_Uchiha.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				898B329E64B451A473BCC98F /* Pods_Lord_Itachi_UchihaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,12 +89,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84258D8BDE772CF4FF9D3006 /* Pods_Lord_Itachi_Uchiha_Lord_Itachi_UchihaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		438DFFF1C8835F13168B5185 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8598E77F119ED101C55F853 /* Pods-Lord Itachi Uchiha.debug.xcconfig */,
+				C3F3FDC2CB920D1C9356850D /* Pods-Lord Itachi Uchiha.release.xcconfig */,
+				F680D1910DBFBD70F8C7C6C3 /* Pods-Lord Itachi Uchiha-Lord Itachi UchihaUITests.debug.xcconfig */,
+				6D668023D4FDF2222CA6E46B /* Pods-Lord Itachi Uchiha-Lord Itachi UchihaUITests.release.xcconfig */,
+				A3C3AB04AC4DC2872FAF4340 /* Pods-Lord Itachi UchihaTests.debug.xcconfig */,
+				4C8DD7C5CD1A1A3C60667206 /* Pods-Lord Itachi UchihaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CB16640326A7EC0300B979DD = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +117,7 @@
 				CB16643026A7EC2300B979DD /* Lord Itachi UchihaUITests */,
 				CB16640D26A7EC0400B979DD /* Products */,
 				CBC4185F26AB86AA009E7959 /* Frameworks */,
+				438DFFF1C8835F13168B5185 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,13 +134,9 @@
 		CB16640E26A7EC0400B979DD /* Lord Itachi Uchiha */ = {
 			isa = PBXGroup;
 			children = (
-				CB50BBC726AAA49F0064781E /* Resources */,
-				CB16640F26A7EC0400B979DD /* AppDelegate.swift */,
-				CB16641126A7EC0400B979DD /* SceneDelegate.swift */,
-				CB16641326A7EC0400B979DD /* ViewController.swift */,
-				CB16641526A7EC0400B979DD /* Main.storyboard */,
+				CB28924D26ABA66D00A813CA /* Essentials */,
+				CB28924C26ABA64F00A813CA /* View Controllers */,
 				CB16641826A7EC2200B979DD /* Assets.xcassets */,
-				CB16641A26A7EC2200B979DD /* LaunchScreen.storyboard */,
 				CB16641D26A7EC2200B979DD /* Info.plist */,
 			);
 			path = "Lord Itachi Uchiha";
@@ -136,20 +160,33 @@
 			path = "Lord Itachi UchihaUITests";
 			sourceTree = "<group>";
 		};
-		CB50BBC726AAA49F0064781E /* Resources */ = {
+		CB28924C26ABA64F00A813CA /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				CB50BBC826AAA5160064781E /* scripts.js */,
-				CB50BBC926AAA52E0064781E /* style.css */,
-				CB50BBCD26AAEB480064781E /* index.html */,
+				CB16641526A7EC0400B979DD /* Main.storyboard */,
+				CB16641A26A7EC2200B979DD /* LaunchScreen.storyboard */,
 			);
-			path = Resources;
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		CB28924D26ABA66D00A813CA /* Essentials */ = {
+			isa = PBXGroup;
+			children = (
+				CB16640F26A7EC0400B979DD /* AppDelegate.swift */,
+				CB16641126A7EC0400B979DD /* SceneDelegate.swift */,
+				CB16641326A7EC0400B979DD /* ViewController.swift */,
+				CB28925126ABAA6400A813CA /* AnimateViewController.swift */,
+			);
+			path = Essentials;
 			sourceTree = "<group>";
 		};
 		CBC4185F26AB86AA009E7959 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				CBC4186026AB86AB009E7959 /* WebKit.framework */,
+				5017EF7942E3A145C2DBC347 /* Pods_Lord_Itachi_Uchiha.framework */,
+				4AE5CE3C9F5F51D9C1DA001C /* Pods_Lord_Itachi_Uchiha_Lord_Itachi_UchihaUITests.framework */,
+				A4246FBFC9D98AFBFD63EC00 /* Pods_Lord_Itachi_UchihaTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -161,9 +198,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB16643626A7EC2300B979DD /* Build configuration list for PBXNativeTarget "Lord Itachi Uchiha" */;
 			buildPhases = (
+				95FC24C3FA2E4C38FDC63991 /* [CP] Check Pods Manifest.lock */,
 				CB16640826A7EC0300B979DD /* Sources */,
 				CB16640926A7EC0300B979DD /* Frameworks */,
 				CB16640A26A7EC0300B979DD /* Resources */,
+				44551B621A4B117393ADB93E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -178,6 +217,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB16643926A7EC2300B979DD /* Build configuration list for PBXNativeTarget "Lord Itachi UchihaTests" */;
 			buildPhases = (
+				AA9CE8278B636585F39B6AAC /* [CP] Check Pods Manifest.lock */,
 				CB16641E26A7EC2300B979DD /* Sources */,
 				CB16641F26A7EC2300B979DD /* Frameworks */,
 				CB16642026A7EC2300B979DD /* Resources */,
@@ -196,9 +236,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB16643C26A7EC2300B979DD /* Build configuration list for PBXNativeTarget "Lord Itachi UchihaUITests" */;
 			buildPhases = (
+				F230FDD093E6B4B3DAD4DB98 /* [CP] Check Pods Manifest.lock */,
 				CB16642926A7EC2300B979DD /* Sources */,
 				CB16642A26A7EC2300B979DD /* Frameworks */,
 				CB16642B26A7EC2300B979DD /* Resources */,
+				5962F036A5EC983C5B668A4D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -279,11 +321,115 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		44551B621A4B117393ADB93E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lord Itachi Uchiha/Pods-Lord Itachi Uchiha-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lord Itachi Uchiha/Pods-Lord Itachi Uchiha-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lord Itachi Uchiha/Pods-Lord Itachi Uchiha-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5962F036A5EC983C5B668A4D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lord Itachi Uchiha-Lord Itachi UchihaUITests/Pods-Lord Itachi Uchiha-Lord Itachi UchihaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lord Itachi Uchiha-Lord Itachi UchihaUITests/Pods-Lord Itachi Uchiha-Lord Itachi UchihaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lord Itachi Uchiha-Lord Itachi UchihaUITests/Pods-Lord Itachi Uchiha-Lord Itachi UchihaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95FC24C3FA2E4C38FDC63991 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lord Itachi Uchiha-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA9CE8278B636585F39B6AAC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lord Itachi UchihaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F230FDD093E6B4B3DAD4DB98 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lord Itachi Uchiha-Lord Itachi UchihaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CB16640826A7EC0300B979DD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB28925226ABAA6400A813CA /* AnimateViewController.swift in Sources */,
 				CB16641426A7EC0400B979DD /* ViewController.swift in Sources */,
 				CB16641026A7EC0400B979DD /* AppDelegate.swift in Sources */,
 				CB16641226A7EC0400B979DD /* SceneDelegate.swift in Sources */,
@@ -459,6 +605,7 @@
 		};
 		CB16643726A7EC2300B979DD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8598E77F119ED101C55F853 /* Pods-Lord Itachi Uchiha.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -478,6 +625,7 @@
 		};
 		CB16643826A7EC2300B979DD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3F3FDC2CB920D1C9356850D /* Pods-Lord Itachi Uchiha.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -497,6 +645,7 @@
 		};
 		CB16643A26A7EC2300B979DD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3C3AB04AC4DC2872FAF4340 /* Pods-Lord Itachi UchihaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -519,6 +668,7 @@
 		};
 		CB16643B26A7EC2300B979DD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C8DD7C5CD1A1A3C60667206 /* Pods-Lord Itachi UchihaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -541,6 +691,7 @@
 		};
 		CB16643D26A7EC2300B979DD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F680D1910DBFBD70F8C7C6C3 /* Pods-Lord Itachi Uchiha-Lord Itachi UchihaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -561,6 +712,7 @@
 		};
 		CB16643E26A7EC2300B979DD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D668023D4FDF2222CA6E46B /* Pods-Lord Itachi Uchiha-Lord Itachi UchihaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

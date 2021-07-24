@@ -1,0 +1,6 @@
+framework module Pods_Lord_Itachi_Uchiha_Lord_Itachi_UchihaUITests {
+  umbrella header "Pods-Lord Itachi Uchiha-Lord Itachi UchihaUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

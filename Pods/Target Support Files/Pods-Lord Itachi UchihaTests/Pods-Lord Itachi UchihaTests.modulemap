@@ -1,0 +1,6 @@
+framework module Pods_Lord_Itachi_UchihaTests {
+  umbrella header "Pods-Lord Itachi UchihaTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
